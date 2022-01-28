@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Order">
+        <menu>
+        <item
+            android:id="@+id/nav_neworder"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="New Order" />
+        <item
+            android:id="@+id/nav_vieworder"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="View Order" />
+        <item
+            android:id="@+id/nav_approve"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Approve Order" />
+        <item
+            android:id="@+id/nav_pending"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Pending Order" />
+        </menu></item>
+        <item android:title="Reports">
+        <menu>
+        <item
+            android:id="@+id/nav_outstanding"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Outstanding" />
+        <item
+            android:id="@+id/nav_rebate"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Party Lifting" />
+        <item
+                android:id="@+id/nav_ledger"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Party Ledger" />
+        </menu></item>
+        <item android:title="Receipt/Account">
+        <menu>
+        <item
+            android:id="@+id/nav_receipt"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Receipt" />
+        <item
+            android:id="@+id/nav_receiptview"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Receipt View" />
+        </menu></item>
+        <item android:title="Stock Module">
+        <menu>
+        <item
+            android:id="@+id/nav_stock"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Stock Entry" />
+        <item
+            android:id="@+id/nav_stockreport"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Stock Report" />
+        </menu></item>
+
+      <!--  <item
+            android:id="@+id/nav_target"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Target / Achievement" />-->
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_camera"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Camera" />
+            <item
+                android:id="@+id/nav_updown"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Upload/Download" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Exit" />
+        </menu>
+    </item>
+</menu>

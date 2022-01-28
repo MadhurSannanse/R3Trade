@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UnicodeFragment">
+
+    <EditText
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:padding="@dimen/activity_vertical_margin"
+        android:text=""
+        android:textColor="#fff" >
+    </EditText>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            android:text="Select Printer :" />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2"
+            android:text="2 Inch"
+            android:id="@+id/two_inch" />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2"
+            android:text="3 Inch"
+            android:id="@+id/three_inch" />
+    </RadioGroup>
+
+    <ScrollView
+        android:id="@+id/as"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <LinearLayout
+            android:id="@+id/we"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:weightSum="1"
+                 android:showDividers="middle">
+
+                 <Spinner
+                     android:layout_width="match_parent"
+                     android:layout_height="50dp"
+                     android:id="@+id/sFont"
+                     android:layout_weight="0.5"
+                     android:entries="@array/Fonts"
+                     android:prompt="@string/Font_Prompt"
+                     android:background="@drawable/gray"
+                     android:spinnerMode="dropdown" />
+
+
+                 <Spinner
+                     android:layout_width="match_parent"
+                     android:layout_height="50dp"
+                     android:id="@+id/sFontSize"
+                     android:entries="@array/FontSize"
+                     android:prompt="@string/FontSize_Prompt"
+                     android:layout_weight="0.5"
+                     android:background="@drawable/gray"
+                     android:spinnerMode="dropdown" />
+             </TableRow>-->
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btnGetHiTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="HINDI Bill" />
+
+                <Button
+                    android:id="@+id/btnGetKnTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="KANNADA Bill" />
+
+                <Button
+                    android:id="@+id/btnGetEnTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ENGLISH Bill" />
+
+                <Button
+                    android:id="@+id/btnGetTaTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Get TA Txt" />
+
+                <!--  <Button
+                      android:id="@+id/btnGetTeTxt"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="Get TE Txt" />-->
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btnUnicodeLeftAlign"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Print Left Align" />
+
+                <Button
+                    android:id="@+id/btnUnicodeCenterAlign"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Print Center Align" />
+
+                <Button
+                    android:id="@+id/btnUnicodeRightAlign"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Print Right Align" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btnPrintFs16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Print size 16" />
+
+                <Button
+                    android:id="@+id/btnPrintFs20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Print size 20" />
+
+                <Button
+                    android:id="@+id/btnPrintFs24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Print size 24" />
+
+                <Button
+                    android:id="@+id/btnPrintFs28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Print size 28" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/btnPrintLogo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Print Logo" />
+
+                <Button
+                    android:id="@+id/btnPrintBarcodeImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Print Barcode Image" />
+
+                <!--<Button
+                    android:id="@+id/btnPrint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Print Text" />-->
+
+                <!--<Button
+                   android:id="@+id/btnChangeLogo"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Set Logo" />-->
+            </TableRow>
+
+            <!--<TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtBarcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gray"
+                    android:ems="5"
+                    android:padding="@dimen/activity_vertical_margin"
+                    android:text=""
+                    android:textColor="#ffff"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/btnPrintBarcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Print Barcode"
+                    android:layout_weight="1" />
+
+            </TableRow>-->
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Projects/RThreeTrade/app/src/main/res/layout/item_outstanding.xml" value="0.1259259259259259" />
+        <entry key="..\:/Android Projects/RThreeTrade/app/src/main/res/layout/item_search.xml" value="0.22708333333333333" />
+        <entry key="..\:/Android Projects/RThreeTrade/app/src/main/res/layout/month_picker_dialog.xml" value="0.25" />
+        <entry key="..\:/Android Projects/RThreeTrade/app/src/main/res/layout/spinner_item.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/drawable-v24/ic_cart.xml" value="0.12314814814814815" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/drawable-v24/ic_outspayble.xml" value="0.12314814814814815" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/drawable-v24/ic_outsrecv.xml" value="0.12314814814814815" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/drawable-v24/ic_sale_bar.xml" value="0.12314814814814815" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2046875" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/drawable/ic_menu_camera.xml" value="0.12314814814814815" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.12314814814814815" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.12314814814814815" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/activity_bluetooth_printer_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/activity_cash_receipt_view.xml" value="0.10648148148148148" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/activity_change_route.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/activity_login_request.xml" value="0.184375" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/activity_menu_navigation.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/activity_outstanding_admin.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/activity_outstanding_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/activity_outstanding_salesman.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/activity_rebate_admin.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/activity_rebate_details.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/activity_rebate_salesman.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/activity_search_customer.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/activity_synchronization.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/activity_unicode_fragment.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/admin_outstanding_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/app_bar_menu_navigation.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/content_login_request.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/content_menu_navigation.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/content_receipt.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/date_picker_dialog.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/dialog.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/file_selector_main.xml" value="0.159375" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/fragment_first.xml" value="0.184375" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/fragment_first2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/fragment_gallery.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/fragment_second.xml" value="0.184375" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/fragment_second2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/fragment_server_sync.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/fragment_slideshow.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/fragment_unicode.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/item_outstanding.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/item_receiptview.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/item_search.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/layout_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/nav_header_menu_navigation.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/party_outstanding_fragment.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/partyoutstanding.xml" value="0.1287037037037037" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/receipt_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/salesman_outstanding_fragment.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/spinner_item.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/unicode_layout.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/layout/view_receipt_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/menu/action_bar_menu.xml" value="0.159375" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/menu/main_navigration.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/menu/menu_navigation.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/RThreeTrade/app/src/main/res/menu/search_customre.xml" value="0.18854166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

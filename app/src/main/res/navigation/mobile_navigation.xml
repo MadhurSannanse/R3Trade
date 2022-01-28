@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_receipt"
+        android:name="r3.aurangabad.rthreetrade.ui.receipt.ReceiptFragment"
+        android:label="Receipt" />
+    <fragment
+        android:id="@+id/nav_outstanding"
+        android:name="r3.aurangabad.rthreetrade.ui.adminoutstanding.AdminOutstandingFragment"
+        android:label="Outstanding"
+        tools:layout="@layout/admin_outstanding_fragment" />
+    <fragment
+        android:id="@+id/nav_neworder"
+        android:name="r3.aurangabad.rthreetrade.ui.partyoutstanding.PartyOutstandingFragment"
+        android:label="Party Outstanding"
+        tools:layout="@layout/party_outstanding_fragment" />
+    <fragment
+        android:id="@+id/nav_salesmanoutstanding"
+        android:name="r3.aurangabad.rthreetrade.ui.salesmanoutstanding.SalesmanOutstandingFragment"
+        android:label="Salesman Outstanding" />
+    <fragment
+        android:id="@+id/nav_receiptview"
+        android:name="r3.aurangabad.rthreetrade.ui.viewreceipts.ViewReceiptFragment"
+        android:label="View Receipt" />
+    <fragment
+        android:id="@+id/nav_updown"
+        android:name="r3.aurangabad.rthreetrade.ui.serversync.ServerSyncFragment"
+        android:label="Upload/Download" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="r3.aurangabad.rthreetrade.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="r3.aurangabad.rthreetrade.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="r3.aurangabad.rthreetrade.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
